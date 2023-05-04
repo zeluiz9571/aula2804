@@ -101,7 +101,7 @@ public class CalculadoraSimples {
             }else if(op == 5){ 
                 System.out.println("Forte Abraço!");
             }else{
-                System.out.println("Opção " + op + "incorreta!");
+                System.out.println("Opção " + op + " incorreta!");
             }
 
         }while(op!=5);
