@@ -41,6 +41,22 @@ public class CalculadoraSimples {
 
 
             } else if(op == 2){
+                //José
+                System.out.println("\n\t\t\t -- Subtração --\n");
+
+            //Entrada
+            System.out.print("Informe N1: ");
+            n1 = entrada.nextInt();
+            
+            System.out.print("Informe N2:");
+            n2 = entrada.nextInt();
+
+            //Processamento
+            total = n1 - n2;
+
+            //Saída
+            System.out.println(n1 + " - " + n2 + " = " + total);
+
                 System.out.println("\n\t\t\t -- Subtração --\n");
 
 
