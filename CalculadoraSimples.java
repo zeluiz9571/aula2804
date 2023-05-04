@@ -107,6 +107,4 @@ public class CalculadoraSimples {
         }while(op!=5);
 
     }
-
-
 }
