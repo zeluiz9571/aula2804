@@ -85,7 +85,7 @@ public class CalculadoraSimples {
                 System.out.println("Opção " + op + "incorreta!");
             }
 
-        }while(op!=3);
+        }while(op!=4);
 
     }
 
