@@ -18,15 +18,35 @@ public class CalculadoraSimples {
             System.out.println("2. Subtração:");
             System.out.println("3. Sair:");
 
-            System.out.println("Opção:");
+            System.out.print("Opção:");
             op = entrada.nextInt();
 
+            //Ryan
             if(op == 1){
                 System.out.println("\n\t\t\t -- Soma --\n");
+
+            //Entrada
+            System.out.print("Informe N1: ");
+            n1 = entrada.nextInt();
+            
+            System.out.print("Informe N2: ");
+            n2 = entrada.nextInt();
+
+            //Processamento
+            total = n1 + n2;
+
+            //Saída
+            System.out.println(n1 + " + " + n2 + " = " + total);
+
+
             } else if(op == 2){
                 System.out.println("\n\t\t\t -- Subtração --\n");
+
+
             } else if(op == 3){
                 System.out.println("Forte abraço!");
+
+
             }else{
                 System.out.println("Opção " + op + " incorreta!");
             }
