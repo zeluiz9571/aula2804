@@ -17,7 +17,8 @@ public class CalculadoraSimples {
             System.out.println("1. Soma:");
             System.out.println("2. Subtração:");
             System.out.println("3. Multiplicação:");
-            System.out.println("4. Sair:");
+            System.out.println("4. Divisão ");
+            System.out.println("5. Sair:");
 
             System.out.print("Opção:");
             op = entrada.nextInt();
@@ -80,6 +81,23 @@ public class CalculadoraSimples {
 
                 
             }else if(op == 4){
+
+                //Gota
+                System.out.println("\n\t\t\t -- Divisão --\n");
+
+                //Entrada
+                System.out.println("Informe N1");
+                n1 = entrada.nextInt();
+
+                System.out.println("Informe N2");
+                n2 = entrada.nextInt();
+
+                //Processamento
+                total = n1 / n2; 
+
+                //Saída
+            System.out.println(n1 + " / " + n2 + " = " + total);
+
                 System.out.println("Forte Abraço!");
             }else{
                 System.out.println("Opção " + op + "incorreta!");
