@@ -82,7 +82,7 @@ public class CalculadoraSimples {
                 
             }else if(op == 4){
 
-                //Gota
+                //Gota e Ryan
                 System.out.println("\n\t\t\t -- Divisão --\n");
 
                 //Entrada
@@ -98,12 +98,13 @@ public class CalculadoraSimples {
                 //Saída
             System.out.println(n1 + " / " + n2 + " = " + total);
 
+            }else if(op == 5){ 
                 System.out.println("Forte Abraço!");
             }else{
                 System.out.println("Opção " + op + "incorreta!");
             }
 
-        }while(op!=4);
+        }while(op!=5);
 
     }
 
